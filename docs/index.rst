@@ -143,12 +143,16 @@ Anweisungen zu „vergessen“ oder mehr Fehler zu machen. Das Kontextfenster is
 die wichtigste Ressource, die es zu verwalten gilt. Um zu sehen, wie sich eine
 Sitzung in der Praxis füllt, verfolgt die Token-Nutzung kontinuierlich.
 
+.. seealso::
+   :doc:`context`
+
 .. toctree::
    :hidden:
    :titlesonly:
    :maxdepth: 0
 
    setup
+   context
    jupyter
    context
    verify
