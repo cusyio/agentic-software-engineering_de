@@ -153,6 +153,7 @@ Sitzung in der Praxis füllt, verfolgt die Token-Nutzung kontinuierlich.
 
    setup
    context
+   verify
    jupyter
    context
    verify
