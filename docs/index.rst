@@ -155,8 +155,5 @@ Sitzung in der Praxis füllt, verfolgt die Token-Nutzung kontinuierlich.
    context
    verify
    procedure
-   jupyter
-   context
-   verify
-   procedure
    security
+   jupyter
