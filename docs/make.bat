@@ -1,3 +1,7 @@
+REM SPDX-FileCopyrightText: 2026 cusy GmbH
+REM
+REM SPDX-License-Identifier: BSD-3-Clause
+
 @ECHO OFF
 
 pushd %~dp0

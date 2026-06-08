@@ -1,3 +1,7 @@
+.. SPDX-FileCopyrightText: 2026 cusy GmbH
+..
+.. SPDX-License-Identifier: BSD-3-Clause
+
 Setup
 =====
 
@@ -32,7 +36,7 @@ der mutmaßlich effektivste umgesetzt wird:
 .. literalinclude:: AGENTS.md
    :caption: AGENTS.md
    :language: md
-   :lines: 1-2
+   :lines: 6-7
 
 uv
 --
@@ -48,7 +52,7 @@ Konfiguration für eine :file:`AGENTS.md`-Datei ist:
 .. literalinclude:: AGENTS.md
    :caption: AGENTS.md
    :language: md
-   :lines: 4-7
+   :lines: 10-12
 
 .. seealso::
    * :ref:`python-basics:uv`
@@ -65,7 +69,7 @@ Beispiel)` überprüfen mit :doc:`Python4DataScience:productive/qa/ruff`, `ty
 .. literalinclude:: AGENTS.md
    :caption: AGENTS.md
    :language: md
-   :lines: 9-11
+   :lines: 14-16
 
 Typisierung
 -----------
@@ -79,7 +83,7 @@ Hints <python:library/typing>` für alle Funktionsparameter und Rückgabetypen.
 .. literalinclude:: AGENTS.md
    :caption: AGENTS.md
    :language: md
-   :lines: 13-15
+   :lines: 18-20
 
 Testen
 ------
@@ -92,7 +96,7 @@ Darüberhinaus sollte :doc:`Mocking <python-basics:test/mock>` und
 .. literalinclude:: AGENTS.md
    :caption: AGENTS.md
    :language: md
-   :lines: 17-25
+   :lines: 22-30
 
 Dokumentation
 -------------
@@ -106,7 +110,7 @@ Wir verwenden in allen Funktionen und Klassen
 .. literalinclude:: AGENTS.md
    :caption: AGENTS.md
    :language: md
-   :lines: 27-29
+   :lines: 32-34
 
 Logging
 -------
@@ -121,7 +125,7 @@ Exception doch abgefangen werden soll, sollte sie zumindest geloggt werden.
 .. literalinclude:: AGENTS.md
    :caption: AGENTS.md
    :language: md
-   :lines: 31-33
+   :lines: 36-38
 
 Kommandozeilenwerkzeuge
 -----------------------
@@ -132,4 +136,4 @@ Log-Ausgaben liefert, die für die Fehlerbehebung nützlich sind.
 .. literalinclude:: AGENTS.md
    :caption: AGENTS.md
    :language: md
-   :lines: 35-36
+   :lines: 40-41

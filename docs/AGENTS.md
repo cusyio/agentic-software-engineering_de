@@ -1,3 +1,8 @@
+<!--
+SPDX-FileCopyrightText: 2026 cusy GmbH
+
+SPDX-License-Identifier: BSD-3-Clause
+-->
 # General procedure
 - Before creating code, brainstorm 5 different approaches to solve the problem and sort them by their probable effectiveness. Then, choose the best approach and implement it.
 

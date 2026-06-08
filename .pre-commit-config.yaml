@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 cusy GmbH
+#
+# SPDX-License-Identifier: BSD-3-Clause
+
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
 
@@ -44,3 +48,8 @@ repos:
       args: [--line-length=79]
       additional_dependencies:
       - black
+  - repo: https://github.com/fsfe/reuse-tool
+    rev: a1bb792acda6fd0724936b4ebbdbc8eceb9c0459 # v6.2.0
+    hooks:
+    - id: reuse
+      args: ["lint"]
