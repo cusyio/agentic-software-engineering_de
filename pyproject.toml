@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 cusy GmbH
+#
+# SPDX-License-Identifier: BSD-3-Clause
 [project]
 name = "agentic-software-engineering"
 version = "0.1.0"
