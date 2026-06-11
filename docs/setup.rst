@@ -38,6 +38,8 @@ der mutmaßlich effektivste umgesetzt wird:
    :language: md
    :lines: 6-7
 
+.. _uv:
+
 uv
 --
 
@@ -57,6 +59,8 @@ Konfiguration für eine :file:`AGENTS.md`-Datei ist:
 .. seealso::
    * :ref:`python-basics:uv`
    * :doc:`Python4DataScience:productive/envs/uv/claude-cursor`
+
+.. _code-quality:
 
 Code-Qualität und Linting
 -------------------------
@@ -85,6 +89,8 @@ Hints <python:library/typing>` für alle Funktionsparameter und Rückgabetypen.
    :language: md
    :lines: 18-20
 
+.. _testing:
+
 Testen
 ------
 
@@ -97,6 +103,8 @@ Darüberhinaus sollte :doc:`Mocking <python-basics:test/mock>` und
    :caption: AGENTS.md
    :language: md
    :lines: 22-30
+
+.. _documentation:
 
 Dokumentation
 -------------
@@ -111,6 +119,8 @@ Wir verwenden in allen Funktionen und Klassen
    :caption: AGENTS.md
    :language: md
    :lines: 32-34
+
+.. _logging:
 
 Logging
 -------
