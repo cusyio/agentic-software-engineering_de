@@ -124,8 +124,8 @@ Trainings:
    :titlesonly:
    :maxdepth: 0
 
-   setup
    context
+   shared-instructions
    verify
    procedure
    security
