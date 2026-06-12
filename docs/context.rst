@@ -2,8 +2,34 @@
 ..
 .. SPDX-License-Identifier: BSD-3-Clause
 
-Kontext
-=======
+Context Engineering
+===================
+
+Zunächst als Optimierungstaktik gedacht, hat sich Context Engineering zu einem
+grundlegenden architektonischen Aspekt moderner KI-Systeme entwickelt. Im
+Gegensatz zum Prompt Engineering, das sich auf die Formulierung konzentriert,
+konzentriert sich Context Engineering bewusst auf die Informationsumgebung der
+KI.
+
+Da Agenten immer komplexere Aufgaben bewältigen müssen, führt das Einfügen von
+Rohdaten in den Kontext zu `Context rot
+<https://www.understandingai.org/p/context-rot-the-emerging-challenge>`_ und
+einer Verschlechterung der Schlussfolgerungen. Um dem entgegenzuwirken, wechseln
+wir von statischen, monolithischen Prompts zur schrittweisen Offenlegung des
+Kontexts: anstatt alle Anweisungen und Referenzen, die ein Agent benötigen
+könnte, im Voraus zu laden, beginnen wir mit einem schlanken Index der
+verfügbaren Informationen – der Coding-Agent bestimmt, welche Prompts oder
+Kontexte relevant sind, und ruft nur das Nötige ab, wodurch sich das
+`Signal-Rausch-Verhältnis
+<https://de.wikipedia.org/wiki/Signal-Rausch-Verh%C3%A4ltnis>`_ deutlich
+verbessert.
+
+.. seealso::
+   * Birgitta Böckeler: `Context Engineering for Coding Agents
+     <https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html>`_
+
+Strategien
+----------
 
 Um die Qualität der Coding-Agenten möglichst hoch zu halten, sollte sich deren
 Kontext auf die aktuelle Problemstellung konzentrieren. Die folgenden Strategien
@@ -45,3 +71,19 @@ Verlagert die Arbeit zu Hooks und Skills
       der Coding-Agent den Skill aufruft, erhält es diesen Kontext sofort,
       anstatt Token dafür zu verbrauchen, mehrere Dateien lesen zu müssen um die
       Struktur zu verstehen.
+
+Weitere Techniken versuchen, dieses Verhältnis weiter zu verbessern:
+
+`Prompt-Caching <https://platform.claude.com/docs/en/build-with-claude/prompt-caching>`_
+    stellt statische Anweisungen vorab bereit, was Kosten senkt und die Zeit bis
+    zum ersten Token verkürzt.
+Dynamic retrieval
+    geht über grundlegende :abbr:`RAG (Retrieval-Augmented Generation)` hinaus,
+    indem es Tools auswählt und nur die notwendigen :abbr:`MCP (Model Context
+    Protocol)`-Server lädt, wodurch eine unnötige Kontexterweiterung vermieden
+    wird.
+`Context Graphs <https://trustgraph.ai/guides/key-concepts/context-graphs/>`_
+    modellieren institutionelles Schlussfolgern – wie Richtlinien, Ausnahmen und
+    Präzedenzfälle – als strukturierte, abfragbare Daten. Techniken zum
+    Kontextmanagement nutzen *Stateful Compression*, und Sub-Agenten, um
+    Zwischenschritte in lang andauernden Workflows zusammenzufassen.
