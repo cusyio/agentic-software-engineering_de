@@ -38,7 +38,7 @@ Sitzung in der Praxis füllt, verfolgt die Token-Nutzung kontinuierlich.
    :maxdepth: 0
 
    context
-   shared-instructions
+   shared-instructions/index
    verify
    procedure
    security
