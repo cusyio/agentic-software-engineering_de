@@ -24,10 +24,6 @@ Anweisungen in Dateien wie `CLAUDE.md
 – `On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents
 <https://arxiv.org/abs/2601.20404>`_
 
-.. warning::
-   Anthropic empfiehlt 200 Zeilen als Obergrenze, siehe `My CLAUDE.md is too
-   large <https://code.claude.com/docs/en/memory#my-claude-md-is-too-large>`_.
-
 Cross-Agent-Konfiguration
 -------------------------
 
@@ -37,7 +33,7 @@ Konfiguration in eurer :file:`AGENTS.md` verweisen.
 
 .. seealso::
    `Claude Code Docs: AGENTS.md
-   <https://code.claude.com/docs/en/memory#agents-md>`_
+   <https://code.claude.com/docs/de/memory#agents-md>`_
 
 Allgemeine Vorgehensweise
 -------------------------
@@ -57,9 +53,9 @@ uv
 
 Viele Agenten verwenden üblicherweise ``pip``, wenn Pakete installiert oder
 Skripte ausgeführt werden sollen. Eine `CLAUDE.md
-<https://code.claude.com/docs/en/memory#how-claude-md-files-load>`_- oder
-:file:`AGENTS.md`-Datei im Stammverzeichnis eures Projekts
-überschreibt diese Standardeinstellung, sodass in jeder Sitzung stattdessen
+<https://code.claude.com/docs/de/memory#how-claude-md-files-load>`_-
+oder :file:`AGENTS.md`-Datei im Stammverzeichnis eures Projekts überschreibt
+diese Standardeinstellung, sodass in jeder Sitzung stattdessen
 :doc:`Python4DataScience:productive/envs/uv/index` verwendet wird. Eine mögliche
 Konfiguration für eine :file:`AGENTS.md`-Datei ist:
 
@@ -159,3 +155,32 @@ Log-Ausgaben liefert, die für die Fehlerbehebung nützlich sind.
    :caption: AGENTS.md
    :language: md
    :lines: 40-41
+
+Überladene Agentenanweisungen
+-----------------------------
+
+Kontextdateien neigen dazu, im Laufe der Zeit, Übersichten über den Code,
+Erläuterungen zur Architektur, Konventionen und Regeln anzusammeln. Auch wenn
+jede einzelne Ergänzung für sich genommen nützlich sein mag, führt dies oft zu
+einem Übermaß an Anweisungen für den Coding-Agenten. Die Anweisungen werden
+länger und geraten manchmal in Widerspruch zueinander. Modelle neigen dann dazu,
+solchen Inhalten weniger Beachtung zu schenken. Mit zunehmendem Umfang der
+Anweisungen steigt die Wahrscheinlichkeit, dass wichtige Regeln ignoriert
+werden. Anthropic empfiehlt daher 200 Zeilen als Obergrenze, siehe `Meine
+CLAUDE.md ist zu groß
+<https://code.claude.com/docs/de/memory#my-claude-md-is-too-large>`_. Ihr
+könnt Anweisungen auch optimieren, indem ihr Hervorhebungen, :abbr:`z. B. (zum
+Beispiel)` *IMPORTANT* oder *YOU MUST* hinzufügt, um die Einhaltung zu
+verbessern.
+
+Wir beobachten, dass viele Teams die Coding-Agenten auch zur Erstellung von
+:file:`AGENTS.md`-Dateien einsetzen. Unsere Erfahrungen deuten jedoch darauf
+hin, dass handgeschriebene Versionen effektiver zu sein scheinen als solche, die
+generiert wurden. Am besten erscheinen solche Anweisungen, die selektiv
+hinzugefügt werden und schrittweise den Kontext offenlegen, um nur die
+Anweisungen und Fähigkeiten anzuzeigen, die ein Agent für seine aktuelle Aufgabe
+benötigt.
+
+.. seealso::
+   * `Geben Sie spezifischen Kontext in Ihren Prompts an
+     <https://code.claude.com/docs/de/best-practices#provide-specific-context-in-your-prompts>`_
