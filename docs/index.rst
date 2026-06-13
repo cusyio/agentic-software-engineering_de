@@ -125,7 +125,7 @@ Trainings:
    :maxdepth: 0
 
    context
-   shared-instructions
+   shared-instructions/index
    verify
    procedure
    security
