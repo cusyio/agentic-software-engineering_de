@@ -39,7 +39,7 @@ Verwaltet den Kontext proaktiv
       könnt ihr dabei noch Hinweise geben, was bei der Zusammenfassung
       beibehalten werden soll.
 
-Reduziert den Overhead des :abbr:`MCP (Model Context Protocol)`)-Servers
+Reduziert den Overhead des :term:`MCP`-Servers
     * MCP-Tool-Definitionen werden üblicherweise zurückgestellt, sodass nur die
       Tool-Namen im Kontext verfügbar ist, bis der Coding-Agent ein bestimmtes
       Tool verwendet.
@@ -75,9 +75,8 @@ Weitere Techniken versuchen, dieses Verhältnis weiter zu verbessern:
     zum ersten Token verkürzt.
 Dynamic retrieval
     geht über grundlegende :abbr:`RAG (Retrieval-Augmented Generation)` hinaus,
-    indem es Tools auswählt und nur die notwendigen :abbr:`MCP (Model Context
-    Protocol)`-Server lädt, wodurch eine unnötige Kontexterweiterung vermieden
-    wird.
+    indem es Tools auswählt und nur die notwendigen :term:`MCP`-Server lädt,
+    wodurch eine unnötige Kontexterweiterung vermieden wird.
 `Context Graphs <https://trustgraph.ai/guides/key-concepts/context-graphs/>`_
     modellieren institutionelles Schlussfolgern – wie Richtlinien, Ausnahmen und
     Präzedenzfälle – als strukturierte, abfragbare Daten. Techniken zum
