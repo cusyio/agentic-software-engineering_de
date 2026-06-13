@@ -130,3 +130,4 @@ Trainings:
    procedure
    security
    jupyter
+   glossary

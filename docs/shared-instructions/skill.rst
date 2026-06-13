@@ -55,10 +55,9 @@ Skills vs. MCP
 --------------
 
 Skills sind auch ein Grund dafür, dass Entwicklungsteams vorsichtiger werden bei
-der Verwendung von :abbr:`MCP (Model Context Protocol)`, da viele
-Anwendungsfälle ebenso effektiv gelöst werden können, indem ein Agent in der
-:file:`SKILL.md` auf eine lokale :abbr:`CLI (Command-line interface)` oder ein
-Skript verwiesen wird.
+der Verwendung von :term:`MCP`, da viele Anwendungsfälle ebenso effektiv gelöst
+werden können, indem ein Agent in der :file:`SKILL.md` auf eine lokale
+:abbr:`CLI (Command-line interface)` oder ein Skript verwiesen wird.
 
 Das `offizielle MCP von GitHub <https://github.com/github/github-mcp-server>`_
 hingegen verbraucht allein schon Zehntausende von Kontext-Token, und sobald noch
