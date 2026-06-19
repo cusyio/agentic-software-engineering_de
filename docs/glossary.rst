@@ -17,8 +17,9 @@ Glossar
    Agent Scan
        `agent-scan <https://github.com/snyk/agent-scan>`_ ist ein
        Sicherheitsscanner für Agent-Ökosysteme, der lokale Komponenten –
-       darunter :term:`MCP`-Server und :doc:`Skills <shared-instructions/skill>`
-       – aufspürt und Risiken wie Prompt-Injection, `Tool-Poisoning
+       darunter :term:`MCP`-Server und :doc:`Skills
+       <shared-instructions/skill/index>` – aufspürt und Risiken wie
+       Prompt-Injection, `Tool-Poisoning
        <https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks>`__,
        toxische Abläufe, fest codierte Geheimnisse und unsicheren Umgang mit
        Anmeldedaten aufzeigt. Er schließt eine sich abzeichnende Lücke in der
@@ -95,10 +96,10 @@ Glossar
        zur Untersuchung agentenbasierter Systeme, um unsichere Datenpfade und
        potenzielle Angriffsvektoren zu identifizieren. Diese Risiken beschränken
        sich nicht mehr nur auf :term:`MCP`-Integrationen; wir haben ähnliche
-       Muster auch bei :doc:`Skills <shared-instructions/skill>` beobachtet, wo
-       ein böswilliger Akteur eine scheinbar nützliche Funktion so verpacken
-       kann, dass sie eine versteckte Anweisung zum Abzug sensibler Daten
-       enthält. Wir empfehlen Entwicklungstteams, die mit Agenten arbeiten,
-       dringend, eine Toxic-Flow-Analyse durchzuführen und Tools wie
-       :term:`Agent Scan` zu nutzen, um unsichere Datenpfade zu identifizieren,
-       bevor sie ausgenutzt werden.
+       Muster auch bei :doc:`Skills <shared-instructions/skill/index>`
+       beobachtet, wo ein böswilliger Akteur eine scheinbar nützliche Funktion
+       so verpacken kann, dass sie eine versteckte Anweisung zum Abzug
+       sensibler Daten enthält. Wir empfehlen Entwicklungstteams, die mit
+       Agenten arbeiten, dringend, eine Toxic-Flow-Analyse durchzuführen und
+       Tools wie :term:`Agent Scan` zu nutzen, um unsichere Datenpfade zu
+       identifizieren, bevor sie ausgenutzt werden.
