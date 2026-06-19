@@ -5,6 +5,9 @@
 Sicherheit
 ==========
 
+.. seealso::
+   :doc:`Skill-Sicherheit <shared-instructions/skill/security>`
+
 Einige Coding-Agenten erlauben, die Berechtigungen dort festzulegen,
 :abbr:`z. B. (zum Beispiel)` automatisch, mit einer Whitelist oder in einer
 Sandbox. Diese Berechtigungen bleiben jedoch anfällig für `Lethal Trifecta
