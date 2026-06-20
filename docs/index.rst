@@ -126,7 +126,7 @@ Trainings:
 
    context
    shared-instructions/index
-   verify
+   feedback-loops
    procedure
    security
    jupyter
