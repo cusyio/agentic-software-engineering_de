@@ -74,15 +74,6 @@ Verlagert die Arbeit zu Hooks und Skills
 
 Weitere Techniken versuchen, dieses Verhältnis weiter zu verbessern:
 
-`Prompt-Caching <https://platform.claude.com/docs/en/build-with-claude/prompt-caching>`_
-    stellt statische Anweisungen vorab bereit, was Kosten senkt und die Zeit bis
-    zum ersten Token verkürzt.
-Dynamic retrieval
-    geht über grundlegende :abbr:`RAG (Retrieval-Augmented Generation)` hinaus,
-    indem es Tools auswählt und nur die notwendigen :term:`MCP`-Server lädt,
-    wodurch eine unnötige Kontexterweiterung vermieden wird.
-`Context Graphs <https://trustgraph.ai/guides/key-concepts/context-graphs/>`_
-    modellieren institutionelles Schlussfolgern – wie Richtlinien, Ausnahmen und
-    Präzedenzfälle – als strukturierte, abfragbare Daten. Techniken zum
-    Kontextmanagement nutzen *Stateful Compression*, und Sub-Agenten, um
-    Zwischenschritte in lang andauernden Workflows zusammenzufassen.
+.. include:: glossary.rst
+   :start-after: start-context-strategies:
+   :end-before: end-context-strategies:
