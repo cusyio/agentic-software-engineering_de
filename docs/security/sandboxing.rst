@@ -2,16 +2,19 @@
 ..
 .. SPDX-License-Identifier: BSD-3-Clause
 
-Sicherheit
+Sandboxing
 ==========
 
-.. seealso::
-   :doc:`Skill-Sicherheit <shared-instructions/skill/security>`
+Da Coding-Agenten zunehmend autonom Code ausführen, Builds durchführen und mit
+dem Dateisystem interagieren können, birgt der uneingeschränkte Zugriff auf eine
+Entwicklungsumgebung reale Risiken, die bis hin zur Offenlegung von Anmeldedaten
+reichen. Sandboxing sollte daher die übliche Vorgehensweise sein und nicht nur
+eine optionale Erweiterung.
 
-Einige Coding-Agenten erlauben, die Berechtigungen dort festzulegen,
-:abbr:`z. B. (zum Beispiel)` automatisch, mit einer Whitelist oder in einer
-Sandbox. Diese Berechtigungen bleiben jedoch anfällig für `Lethal Trifecta
-<https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/>`_, als wenn euer
+Einige Coding-Agenten erlauben zwar, Berechtigungen festzulegen, :abbr:`z. B.
+(zum Beispiel)` automatisch, mit einer Whitelist oder in einer Sandbox. Diese
+Berechtigungen bleiben jedoch anfällig für `Lethal Trifecta
+<https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/>`_, wenn euer
 Coding-Agent Zugriff auf private Daten hat, nicht vertrauenswürdigen Inhalten
 ausgesetzt ist und extern kommunizieren kann.
 
@@ -20,17 +23,11 @@ Agenten in isolierten Umgebungen mit eingeschränktem Dateisystemzugriff,
 kontrollierter Netzwerkkonnektivität und begrenzter Ressourcennutzung ausgeführt
 wird.
 
-Da Coding-Agenten zunehmend autonom Code ausführen, Builds durchführen und mit
-dem Dateisystem interagieren können, birgt der uneingeschränkte Zugriff auf eine
-Entwicklungsumgebung reale Risiken, die bis hin zur Offenlegung von Anmeldedaten
-reichen. Sandboxing sollte daher die übliche Vorgehensweise sein und nicht nur
-eine optionale Erweiterung.
-
 Mittlerweile gibt es ein breites Spektrum von Sandboxing-Optionen. Über die
 integrierten Sandbox-Modi der Coding-Agenten hinaus gibt es verschiedene
 Optionen im Spannungsfeld zwischen kurzlebigen und dauerhaften Lösungen:
 
-.. include:: glossary.rst
+.. include:: ../glossary.rst
    :start-after: start-containers:
    :end-before: end-containers:
 

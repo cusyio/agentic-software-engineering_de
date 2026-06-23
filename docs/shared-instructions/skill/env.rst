@@ -15,5 +15,5 @@ Skills mehrere Vorteile:
 
 * sie sind leistungsstark
 * sie sind einfach zu erstellen
-* und LLMs können in :doc:`sicheren Programmierumgebungen <../../security>` zur
-  Verfügung gestellt werden
+* und LLMs können in :doc:`sicheren Programmierumgebungen
+  <../../security/sandboxing>` zur Verfügung gestellt werden
