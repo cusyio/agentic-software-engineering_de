@@ -128,6 +128,6 @@ Trainings:
    shared-instructions/index
    feedback-loops
    procedure
-   security
+   security/index
    jupyter
    glossary
