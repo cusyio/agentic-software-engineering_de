@@ -2,9 +2,9 @@
 ..
 .. SPDX-License-Identifier: BSD-3-Clause
 
-==============================
-Agentische Softwareentwicklung
-==============================
+===============================
+Agentische Software­entwicklung
+===============================
 
 .. image:: https://img.shields.io/github/contributors/cusyio/agentic-software-engineering_de.svg
    :alt: Contributors
@@ -19,7 +19,7 @@ Agentische Softwareentwicklung
    :alt: Mastodon
    :target: https://mastodon.social/@Python4DataScience
 
-Agentische Softwareentwicklung verändern die Art und Weise, wie Python-Code
+Agentische Software­entwicklung verändern die Art und Weise, wie Python-Code
 geschrieben wird. Damit die Agenten jedoch eine moderne Toolchain mit `uv
 <https://python-basics-tutorial.readthedocs.io/de/latest/libs/install.html#uv>`_,
 `Ruf <https://www.python4data.science/de/latest/productive/qa/ruff.html>`_, `ty

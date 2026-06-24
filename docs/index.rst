@@ -2,8 +2,8 @@
 ..
 .. SPDX-License-Identifier: BSD-3-Clause
 
-Agentische Softwareentwicklung
-==============================
+Agentische Software­entwicklung
+===============================
 
 Agentische Programmierumgebungen wie Claude Code oder Cursor können im Gegensatz
 zu einem Chatbot nicht nur Fragen beantworten, sondern auch eure Dateien lesen,
