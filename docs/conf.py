@@ -46,6 +46,7 @@ extensions = [
     "sphinx_inline_tabs",
     "sphinx_sitemap",
     "sphinxcontrib.cairosvgconverter",
+    "sphinxcontrib.mermaid",
     "sphinxext.opengraph",
 ]
 
