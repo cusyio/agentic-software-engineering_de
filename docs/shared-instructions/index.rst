@@ -26,3 +26,4 @@ verwalten.
    agents
    skill/index
    slash-commands
+   hooks
