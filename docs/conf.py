@@ -133,6 +133,10 @@ nbsphinx_allow_errors = True
 # -- intersphinx configuration -----------------------------------------------
 
 intersphinx_mapping = {
+    "cusyio": (
+        "https://cusy.io/de/",
+        None,
+    ),
     "python": (
         "https://docs.python.org/3/",
         None,
