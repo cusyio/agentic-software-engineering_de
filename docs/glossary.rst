@@ -133,14 +133,13 @@ Glossar
 
    .. _end-context-strategies:
 
-   .. _start-containers:
+   .. _start-sandboxes:
 
    Sprites
-       `Sprites
-       <https://sprites.dev/>`_ ist eine zustandsbehaftete Sandbox-Umgebung von
-       `Fly.io <https://fly.io/>`_, die auf Basis von `Firecracker
-       <https://firecracker-microvm.github.io>`_-microVMs für die isolierte
-       Ausführung von Coding-Agenten entwickelt wurde.
+       `Sprites <https://sprites.dev/>`_ ist eine zustandsbehaftete
+       Sandbox-Umgebung von `Fly.io <https://fly.io/>`_, die auf Basis von
+       :ref:`firecracker-microvm`-microVMs für die isolierte Ausführung von
+       Coding-Agenten entwickelt wurde.
 
        Während die meisten Sandboxen kurzlebig sind – sie werden für eine
        Aufgabe gestartet und verschwinden anschließend wieder –, bietet
@@ -181,4 +180,4 @@ Glossar
        Konfiguration erstellt, der eine saubere Sicherheitsgrenze bietet,
        allerdings auf Kosten der Neuinstallation von Tools und Abhängigkeiten.
 
-   .. _end-containers:
+   .. _end-sandboxes:

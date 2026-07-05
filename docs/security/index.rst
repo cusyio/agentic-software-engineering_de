@@ -17,13 +17,16 @@ KI-Sicherheitsarchitekturen lassen sich in zwei Hauptkategorien unterteilen:
     Prompt-Injektions oder bösartige Code. Generierte Antworten werden ebenfalls
     überprüft, bevor sie zurückgegeben werden, um sicherzustellen, dass die
     Ausgabe sicher und konform ist.
-:doc:`sandboxing`
+:doc:`sandboxing/index`
     schützt eure Systeme, falls die Guardrails umgangen werden oder versagen.
     Die Coding-Agenten werden abgeschottet, um zu verhindern, dass bösartiger
     Code eure Umgebung verändert oder Daten abfließen lässt.
 
 .. seealso::
-   :doc:`Skill-Sicherheit <../shared-instructions/skill/security>`
+   * :doc:`Skill-Sicherheit <../shared-instructions/skill/security>`
+   * Bundesamt für Sicherheit in der Informationstechnik (BSI): `Evasion-Attacks
+     auf LLMs – Eine Checkliste zur Härtung des LLM-Systems
+     <https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/KI/Evasion-Angriffe_auf_LLMs-Checkliste.pdf>`_
 
 .. toctree::
    :hidden:
@@ -31,4 +34,4 @@ KI-Sicherheitsarchitekturen lassen sich in zwei Hauptkategorien unterteilen:
    :maxdepth: 0
 
    guardrails
-   sandboxing
+   sandboxing/index

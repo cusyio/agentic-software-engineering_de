@@ -30,7 +30,7 @@ Skills können auch mit anderen Modellen verwendet werden
 
 Skills sind sicherer
     Die Anweisungen können in :doc:`sicheren Programmierumgebungen
-    <../../security/sandboxing>` ausgeführt werden.
+    <../../security/sandboxing/index>` ausgeführt werden.
 
 Skills sind einfacher
     :term:`MCP` ist eine vollständige Protokollspezifikation mit Hosts, Clients,
