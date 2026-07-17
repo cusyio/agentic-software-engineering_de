@@ -56,3 +56,10 @@ Der empfohlene Arbeitsablauf umfasst vier Phasen:
 
    Bittet den Coding-Agenten, einen Commit mit einer aussagekräftigen Meldung
    durchzuführen und einen Pull- oder Merge-Request zu stellen.
+
+.. toctree::
+   :hidden:
+   :titlesonly:
+   :maxdepth: 0
+
+   spec-driven-development

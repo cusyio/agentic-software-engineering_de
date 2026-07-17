@@ -127,7 +127,7 @@ Trainings:
    context
    shared-instructions/index
    feedback-loops
-   procedure
+   procedure/index
    security/index
    jupyter
    glossary
