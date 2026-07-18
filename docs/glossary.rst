@@ -15,7 +15,8 @@ Glossar
        agentenbasierten Anwendungen ermöglicht.
 
    Agent Scan
-       `agent-scan <https://github.com/snyk/agent-scan>`_ ist ein
+   Snyk Agent Scan
+       `Snyk Agent Scan <https://github.com/snyk/agent-scan>`_ ist ein
        Sicherheitsscanner für Agent-Ökosysteme, der lokale Komponenten –
        darunter :term:`MCP`-Server und :doc:`Skills
        <shared-instructions/skill/index>` – aufspürt und Risiken wie
