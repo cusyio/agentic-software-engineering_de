@@ -12,6 +12,31 @@ verändert unsere Arbeitsweise: anstatt selbst Code zu schreiben und die
 agentische Programmierumgebung zu bitten, ihn zu überprüfen, beschreiben wir
 nun, was wir wollen, und der Agent recherchiert, plant und setzt es um.
 
+Mit der zunehmenden Verwendung von Coding-Agenten wächst auch die Zahl der
+Studien, die vor einer zu großen Selbstzufriedenheit im Umgang mit
+LLM-generiertem Code warnen. Zwar gibt es zahlreiche Belege dafür, dass diese
+Tools die Entwicklung beschleunigen können – insbesondere bei der Erstellung von
+Prototypen und bei Greenfield-Projekten.  Die Studien zeigen jedoch, dass die
+:doc:`Code-Qualität <Python4DataScience:productive/qa/index>` im Laufe der Zeit
+nachlassen kann.
+
+Die Studie `AI Copilot Code Quality
+<https://www.gitclear.com/ai_assistant_code_quality_2025_research>`_ von
+GitClear aus dem Jahr 2024 ergab, dass Code-Duplikate und Code-Churn stärker als
+erwartet zugenommen haben, während die Refactoring-Aktivitäten in den
+Commit-Verläufen zurückgegangen sind. Ein ähnlicher Trend zeigt sich in der
+Microsoft-Studie `The Impact of Generative AI on Critical Thinking
+<https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/>`_:
+KI-gestütztes Selbstvertrauen geht oft auf Kosten des kritischen Denkens.
+
+Die Beschleunigung eines Teils des Workflows erhöht den Druck auf die anderen
+Teile. Wir stellten fest, dass der effektive Einsatz von LLM-Agenten eine
+Fokussierung auf die :doc:`Code-Qualität
+<Python4DataScience:productive/qa/index>` erfordert und etablierte Praktiken wie
+:doc:`python-basics:test/tdd` und :term:`statische Testverfahren <Statische
+Testverfahren>` an Bedeutung gewinnen, vor allem wenn sie direkt in die
+Coding-Workflows integriert werden.
+
 Dieses Tutorial behandelt Vorgehensweisen, die sich in unseren Teams und für
 Data Scientists, die Coding-Agenten in verschiedensten Codebasen und Umgebungen
 verwenden, als wirksam erwiesen haben.
