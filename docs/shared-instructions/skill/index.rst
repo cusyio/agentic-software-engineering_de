@@ -67,7 +67,7 @@ pre-commit-Hook
 ~~~~~~~~~~~~~~~
 
 Ihr könnt dieselbe Überprüfung mit dem
-:doc:`Python4DataScience:productive/git/advanced/hooks/pre-commit` ausführen, um
+:doc:`Python4DataScience:productive/git/advanced/hooks/prek` ausführen, um
 Änderungen in den Skills zu erkennen:
 
 .. code-block:: yaml
