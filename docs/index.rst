@@ -12,11 +12,21 @@ verändert unsere Arbeitsweise: anstatt selbst Code zu schreiben und die
 agentische Programmierumgebung zu bitten, ihn zu überprüfen, beschreiben wir
 nun, was wir wollen, und der Agent recherchiert, plant und setzt es um.
 
+    *„Je mehr Zeit ich mit Programmieragenten verbringe, desto überzeugter bin
+    ich davon, dass sie die Softwareentwicklung noch schwieriger machen.*
+
+    *Wir können damit Erstaunliches erreichen, aber um ihr volles Potenzial
+    auszuschöpfen, sind außergewöhnliche Disziplin und Fachkenntnisse
+    erforderlich.“*
+
+– `Simon Willison, 24 September 2026
+<https://simonwillison.net/2026/Sep/24/harder/>`_
+
 Mit der zunehmenden Verwendung von Coding-Agenten wächst auch die Zahl der
 Studien, die vor einer zu großen Selbstzufriedenheit im Umgang mit
 LLM-generiertem Code warnen. Zwar gibt es zahlreiche Belege dafür, dass diese
 Tools die Entwicklung beschleunigen können – insbesondere bei der Erstellung von
-Prototypen und bei Greenfield-Projekten.  Die Studien zeigen jedoch, dass die
+Prototypen und bei Greenfield-Projekten. Die Studien zeigen jedoch, dass die
 :doc:`Code-Qualität <Python4DataScience:productive/qa/index>` im Laufe der Zeit
 nachlassen kann.
 
@@ -33,29 +43,22 @@ Die Beschleunigung eines Teils des Workflows erhöht den Druck auf die anderen
 Teile. Wir stellten fest, dass der effektive Einsatz von LLM-Agenten eine
 Fokussierung auf die :doc:`Code-Qualität
 <Python4DataScience:productive/qa/index>` erfordert und etablierte Praktiken wie
-:doc:`python-basics:test/tdd` und :term:`statische Testverfahren <Statische
-Testverfahren>` an Bedeutung gewinnen, vor allem wenn sie direkt in die
-Coding-Workflows integriert werden.
+:doc:`testgetriebene Entwicklung <python-basics:test/tdd>` und :term:`statische
+Testverfahren <Statische Testverfahren>` an Bedeutung gewinnen, vor allem wenn
+sie direkt in die Coding-Workflows integriert werden.
 
-Dieses Tutorial behandelt Vorgehensweisen, die sich in unseren Teams und für
-Data Scientists, die Coding-Agenten in verschiedensten Codebasen und Umgebungen
-verwenden, als wirksam erwiesen haben.
+Wir Menschen sind nach wie vor dafür verantwortlich, was die Software tut und
+wie sie funktioniert, wir nutzen jedoch andere Fähigkeiten, um die Software zu
+erstellen. Daher geht es hier um *agentisches Software-Engineering* und nicht um
+*Vibe Coding* – beim Vibe Coding schauen sich Menschen den Code nicht an,
+während sie sich bei agentischer Programmierung weiterhin mit dem Code
+beschäftigen und ihn oft eingehend prüfen.
 
-Die meisten unserer Empfehlungen basieren jedoch auf einer Einschränkung: Das
-Kontextfenster der Coding-Agenten füllt sich schnell, und die Leistung nimmt ab,
-je mehr es sich füllt. Ein Kontextfenster enthält eure gesamte Konversation,
-einschließlich jeder Nachricht, jeder Datei, die eingelesen wurde, und jeder
-Befehlsausgabe. Eine einzige Debugging-Sitzung oder die Erkundung einer
-Codebasis kann Zehntausende von Tokens generieren und verbrauchen.
-
-Dies ist von Bedeutung, da die LLM-Leistung mit zunehmender Füllung des Kontexts
-abnimmt. Wenn das Kontextfenster voll wird, fangen Coding-Agenten an, frühere
-Anweisungen zu „vergessen“ oder mehr Fehler zu machen. Das Kontextfenster ist
-die wichtigste Ressource, die es zu verwalten gilt. Um zu sehen, wie sich eine
-Sitzung in der Praxis füllt, verfolgt die Token-Nutzung kontinuierlich.
-
-.. seealso::
-   :doc:`context`
+Wie sehen die Tätigkeiten beim Programmieren dann in Zukunft aus? Welche
+Fähigkeiten sind dafür erforderlich? Derzeit scheint das :abbr:`sog.
+(sogenannte)` *Harness-Engineering*, das den Schwerpunkt auf der Arbeit an
+:doc:`context` und :term:`statische Testverfahren <Statische Testverfahren>`
+rund um das LLM legt, zentral zu sein.
 
 Dieses Tutorial ist als Einführung in die agentische Softwareentwicklung
 gedacht. Für eine Einführung in Python gibt es das

@@ -5,6 +5,18 @@
 Context Engineering
 ===================
 
+Das Kontextfenster von Coding-Agenten füllt sich schnell: ein Kontextfenster
+enthält eure gesamte Konversation, einschließlich jeder Nachricht, jeder Datei,
+die eingelesen wurde, und jeder Befehlsausgabe. Eine einzige Debugging-Sitzung
+oder die Erkundung einer Codebasis kann Zehntausende von Tokens generieren und
+verbrauchen.
+
+Dies ist von Bedeutung, da die LLM-Leistung mit zunehmendem Kontext abnimmt.
+Wenn das Kontextfenster voll wird, fangen Coding-Agenten an, frühere Anweisungen
+zu „vergessen“ oder mehr Fehler zu machen. Das Kontextfenster ist die wichtigste
+Ressource, die es zu verwalten gilt. Um zu sehen, wie sich eine Sitzung in der
+Praxis füllt, verfolgt die Token-Nutzung kontinuierlich.
+
 Zunächst als Optimierungstaktik gedacht, hat sich Context Engineering zu einem
 grundlegenden architektonischen Aspekt moderner KI-Systeme entwickelt. Im
 Gegensatz zum Prompt Engineering, das sich auf die Formulierung konzentriert,
