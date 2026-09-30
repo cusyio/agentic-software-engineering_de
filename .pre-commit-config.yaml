@@ -23,15 +23,15 @@ repos:
     - id: end-of-file-fixer
     - id: trailing-whitespace
   - repo: https://github.com/tox-dev/pyproject-fmt
-    rev: cf78bb920f358be6dea099e6b1fd6f67bccb0955 # frozen: v2.25.2
+    rev: 59e7b26529dc6f15c43063064b8b06ded60d0910 # frozen: v2.29.4
     hooks:
     - id: pyproject-fmt
   - repo: https://github.com/abravalheri/validate-pyproject
-    rev: 4b2e70d08cb2ccd26d1fba73588de41c7a5d50b7 # v0.25
+    rev: 17e12779811926f000bdfa1795f9e3735dd71ac3 # frozen: 0.26
     hooks:
     - id: validate-pyproject
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: 01a675ea018f2fb714478a5ffb83fcea8374bb06 # frozen: v0.15.21
+    rev: 2eeb5678de71a00c0902cbda7105d328432f72cb # frozen: v0.16.8
     hooks:
       - id: ruff-check
         args: [--fix, --exit-non-zero-on-fix]
