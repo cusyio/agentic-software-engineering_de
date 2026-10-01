@@ -90,9 +90,10 @@ Hints <python:library/typing>` für alle Funktionsparameter und Rückgabetypen.
 Testen
 ------
 
-Viele unserer Projekte sind :doc:`python-basics:test/tdd` mit
-:doc:`python-basics:test/pytest/index` und :doc:`python-basics:test/hypothesis`.
-Darüberhinaus sollte :doc:`Mocking <python-basics:test/mock>` und
+Viele unserer Projekte sind :doc:`python-basics:test/methods/tdd` mit
+:doc:`python-basics:test/libs/pytest/index` und
+:doc:`python-basics:test/libs/hypothesis`. Darüberhinaus sollte :doc:`Mocking
+<python-basics:test/libs/mock/index>` und
 :ref:`python-basics:monkeypatch-fixture` vermieden werden.
 
 .. literalinclude:: AGENTS.md

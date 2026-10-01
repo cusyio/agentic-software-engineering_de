@@ -71,8 +71,8 @@ Beispiel
 Überprüfen und Überarbeiten
 ---------------------------
 
-Analog zu :doc:`testgetriebener Entwicklung <python-basics:test/tdd>` sollten
-zunächst die Ergebnisse eures Skills überprüft werden. Nur so könnt ihr
+Analog zu :doc:`testgetriebener Entwicklung <python-basics:test/methods/tdd>`
+sollten zunächst die Ergebnisse eures Skills überprüft werden. Nur so könnt ihr
 sicherstellen, dass euer Skill echte und nicht nur imaginäre Probleme löst:
 
 #. Lücken entdecken

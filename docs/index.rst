@@ -43,9 +43,9 @@ Die Beschleunigung eines Teils des Workflows erhöht den Druck auf die anderen
 Teile. Wir stellten fest, dass der effektive Einsatz von LLM-Agenten eine
 Fokussierung auf die :doc:`Code-Qualität
 <Python4DataScience:productive/qa/index>` erfordert und etablierte Praktiken wie
-:doc:`testgetriebene Entwicklung <python-basics:test/tdd>` und :term:`statische
-Testverfahren <Statische Testverfahren>` an Bedeutung gewinnen, vor allem wenn
-sie direkt in die Coding-Workflows integriert werden.
+:doc:`testgetriebene Entwicklung <python-basics:test/methods/tdd>` und
+:term:`statische Testverfahren <Statische Testverfahren>` an Bedeutung gewinnen,
+vor allem wenn sie direkt in die Coding-Workflows integriert werden.
 
 Wir Menschen sind nach wie vor dafür verantwortlich, was die Software tut und
 wie sie funktioniert, wir nutzen jedoch andere Fähigkeiten, um die Software zu
@@ -109,43 +109,47 @@ Trainings:
 +---------------+--------------------------------------------------------------+
 | 3 Tage        | `Code und Daten versioniert und reproduzierbar speichern`_   |
 +---------------+--------------------------------------------------------------+
+| 4 Tage        | `Angewandte KI mit Python`_                                  |
++---------------+--------------------------------------------------------------+
 | Abonnement    | `Neues aus Python für Data-Science`_                         |
 | à 2 h im      |                                                              |
 | Quartal       |                                                              |
 +---------------+--------------------------------------------------------------+
 
 .. _`Einführung in Python`:
-   https://cusy.io/de/unsere-schulungsangebote/einfuehrung-in-python
+   https://cusy.io/de/our-training-courses/introduction-to-python.html
 .. _`Fortgeschrittenes Python`:
-   https://cusy.io/de/unsere-schulungsangebote/fortgeschrittenes-python
+   https://cusy.io/de/our-training-courses/advanced-python.html
 .. _`Entwurfsmuster in Python`:
-   https://cusy.io/de/unsere-schulungsangebote/entwurfsmuster-in-python
+   https://cusy.io/de/our-training-courses/design-patterns-in-python.html
 .. _`Effizient Testen mit Python`:
-   https://cusy.io/de/unsere-schulungsangebote/effizient-testen-mit-python
+   https://cusy.io/de/our-training-courses/efficient-testing-with-python.html
 .. _`Software-Dokumentation mit Sphinx`:
-   https://cusy.io/de/unsere-schulungsangebote/software-dokumentation-mit-sphinx
+   https://cusy.io/de/our-training-courses/software-documentation-with-sphinx.html
 .. _`Technisches Schreiben`:
-   https://cusy.io/de/unsere-schulungsangebote/technisches-schreiben
+   https://cusy.io/de/our-training-courses/technical-writing.html
 .. _`Jupyter-Notebooks für effiziente Data-Science-Workflows`:
-   https://cusy.io/de/unsere-schulungsangebote/jupyter-notebooks-fuer-effiziente-data-science-workflows
+   https://cusy.io/de/our-training-courses/jupyter-notebooks-for-efficient-data-science-workflows.html
 .. _`Numerische Berechnungen mit NumPy`:
-   https://cusy.io/de/unsere-schulungsangebote/numerische-berechnungen-mit-numpy
+   https://cusy.io/de/our-training-courses/numerical-calculations-with-numpy.html
 .. _`Daten analysieren mit pandas`:
-   https://cusy.io/de/unsere-schulungsangebote/daten-analysieren-mit-pandas
+   https://cusy.io/de/our-training-courses/analysing-data-with-pandas.html
 .. _`Daten lesen, schreiben und bereitstellen mit Python`:
-   https://cusy.io/de/unsere-schulungsangebote/daten-lesen-schreiben-und-bereitstellen-mit-python
+   https://cusy.io/de/our-training-courses/read-write-and-provide-data-with-python.html
 .. _`Daten bereinigen und validieren mit Python`:
-   https://cusy.io/de/unsere-schulungsangebote/daten-bereinigen-und-validieren-mit-python
+   https://cusy.io/de/our-training-courses/cleanse-and-validate-data-with-python.html
 .. _`Daten visualisieren mit Python`:
-   https://cusy.io/de/unsere-schulungsangebote/daten-visualisieren-mit-python
+   https://cusy.io/de/our-training-courses/visualising-data-with-python.html
 .. _`Datenvisualisierungen gestalten`:
-   https://cusy.io/de/unsere-schulungsangebote/datenvisualisierungen-gestalten
+   https://cusy.io/de/our-training-courses/designing-data-visualisations.html
 .. _`Dashboards erstellen`:
-   https://cusy.io/de/unsere-schulungsangebote/dashboards-erstellen
+   https://cusy.io/de/our-training-courses/create-dashboards.html
 .. _`Code und Daten versioniert und reproduzierbar speichern`:
-   https://cusy.io/de/unsere-schulungsangebote/code-und-daten-versioniert-und-reproduzierbar-speichern
+   https://cusy.io/de/our-training-courses/versioned-and-reproducible-storage-of-code-and-data.html
+.. _`Angewandte KI mit Python`:
+   https://cusy.io/de/our-training-courses/applied-ai-with-python.html
 .. _`Neues aus Python für Data-Science`:
-   https://cusy.io/de/unsere-schulungsangebote/neues-aus-python-fuer-data-science
+   https://cusy.io/de/our-training-courses/news-from-python-for-data-science.html
 
 .. toctree::
    :hidden:

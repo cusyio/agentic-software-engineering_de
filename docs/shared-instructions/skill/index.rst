@@ -10,9 +10,9 @@ Aufgabenausführung entwickeln, ist das :doc:`../../context` zu einer
 entscheidenden Herausforderung geworden. Agent-Skills bieten einen offenen
 Standard für die Modularisierung von Kontexten, indem sie Anweisungen,
 ausführbare Skripte und zugehörige Ressourcen wie :abbr:`z. B. (zum Beispiel)`
-:doc:`testgetriebene Entwicklung <python-basics:test/tdd>` bündeln. Während
-:doc:`../agents` bei jeder Sitzung geladen wird, werden Skills nur bei Bedarf
-auf der Grundlage ihrer Beschreibungen geladen, was den Token-Verbrauch
+:doc:`testgetriebene Entwicklung <python-basics:test/methods/tdd>` bündeln.
+Während :doc:`../agents` bei jeder Sitzung geladen wird, werden Skills nur bei
+Bedarf auf der Grundlage ihrer Beschreibungen geladen, was den Token-Verbrauch
 reduziert und Probleme wie die Erschöpfung des Kontextfensters oder die
 Überfrachtung der Agentenanweisungen mindert.
 
